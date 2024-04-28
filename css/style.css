@@ -1,0 +1,541 @@
+/* Styles for body element */
+body {
+    color: #ab8a60;
+    margin: 0px;
+    font-family: "Lora", sans-serif;
+}
+
+/* Styles for footer element */
+footer{
+    padding: 0px;
+}
+
+/* Styles for lightmode class */
+.lightmode {
+    background-color: white;
+}
+
+/* Styles for darkmode class */
+.darkmode {
+    background-color: black;
+}
+
+/* Styles for header element */
+header {
+    width: 100%;
+    text-align: center;
+}
+
+/* Styles for img element within header */
+header img {
+    max-width: 100%;
+    height: 350px;
+}
+
+/* Styles for iframe element within main */
+main iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for h1s class */
+.h1s{
+    font-size: 50px;
+}
+
+/* Styles for youtube-video class */
+.youtube-video {
+    display: flex;
+    justify-content: center;
+}
+
+/* Styles for overview class */
+.overview {
+    display: block;
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+/* Styles for p element within overview class */
+.overview p {
+    text-align: center;
+    margin: 0px;
+}
+
+/* Styles for visited a element within overview class */
+.overview a:visited {
+    color: #ab8a60;
+}
+
+/* Styles for hover state of a element within overview class */
+.overview a:hover{
+    color: #ab8a60;
+    transition: ease-in-out 0.5;
+}
+
+/* Styles for page-nav class */
+.page-nav {
+    padding-bottom: 0px;
+   
+}
+
+/* Styles for elipsis id */
+#elipsis{
+    color: #ab8a60;
+}
+
+.index-footer{
+    padding-top: 30px;
+}
+
+/* Styles for ul element within page-nav class */
+.page-nav ul {
+    display: flex;
+    margin: 0px;
+    color: black;
+    list-style-type: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Styles for li element within ul of page-nav class */
+.page-nav li {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Styles for a element within ul of page-nav class */
+.page-nav ul a {
+    display: flex;
+    width: 100%;
+    color: #ab8a60;
+    text-decoration: none;
+    background-color: #1B1B1B;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    height: 100px;
+    border-bottom: 6px solid #1B1B1B;
+    border-radius: 8px;
+}
+
+/* Styles for last-child li element within ul of page-nav class */
+.page-nav ul li:last-child {
+    margin-right: 0px;
+}
+
+/* Styles for nav-link class within lightmode-nav class */
+.lightmode-nav .nav-link {
+    background-color: gainsboro; /* Light mode background color for navigation */
+    color: #ab8a60; /* Light mode text color for navigation */
+    border-bottom: 6px solid gainsboro; /* Light mode border color for navigation */
+}
+
+/* Styles for nav-link class within darkmode-nav class */
+.darkmode-nav .nav-link {
+    background-color: #1B1B1B; /* Dark mode background color for navigation */
+    color: #ab8a60; /* Dark mode text color for navigation */
+    border-bottom: 6px solid #1b1b1b; /* Dark mode border color for navigation */
+}
+
+/* Styles for colour-mode class */
+.colour-mode{
+    position: absolute;
+    top: 10px; 
+    right: 10px; 
+}
+
+/* Styles for body element when prefers-color-scheme is light */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Styles for body element when prefers-color-scheme is dark */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+    }
+}
+
+/* Styles for overview class when max-width is 1000px */
+@media (max-width: 1000px) {
+    .overview {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Styles for boss-names class when min-width is 1000px */
+@media screen and (min-width: 1000px) {
+    .boss-names {
+        padding-bottom: 30px; /* Increase padding when the page width is larger than 1200px */
+    }
+}
+
+/* Styles for boss-names class when min-width is 1400px */
+@media screen and (min-width: 1400px) {
+    .boss-names{
+        padding-bottom: 50px;
+    }
+}
+
+/* Styles for lore-h1 class */
+.lore-h1{
+    padding-bottom: 20px;
+}
+
+/* Styles for image-container class */
+.image-container {
+    float: left;
+    padding-left: 15px; /* Add padding to the left of the image */
+}
+
+/* Styles for img class */
+.img {
+    height: 250px;
+    width: 300px;
+}
+
+/* Styles for last-child img class */
+.img:last-child{
+    padding-bottom: 20px;
+}
+
+/* Styles for text-container class */
+.text-container {
+    float: left;
+    width: calc(100% - 320px); /* Adjusted width considering the padding and image width */
+}
+
+/* Styles for boss-names and boss-info classes */
+.boss-names,
+.boss-info {
+    padding-left: 15px;
+    margin: 0;
+}
+
+/* Styles for after pseudo-element of clearfix class */
+.clearfix::after {
+    padding-top: 20px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styles for image-container and text-container classes when max-width is 700px */
+@media screen and (max-width: 700px) {
+    .image-container,
+    .text-container {
+        float: none;
+        width: auto;
+        margin: 0 auto; 
+        text-align: center; 
+        display: block; 
+        padding-bottom: 10px;
+    }
+}
+
+/* Styles for img class when max-width is 850px */
+@media screen and (max-width: 850px) {
+    .img{
+        height: 300px;
+    }
+}
+
+/* Styles for guides-page, image-container and text-container classes when max-width is 1000px */
+@media screen and (max-width: 1000px){ 
+    .guides-page, .image-container, .text-container{
+        float: none;
+        width: auto;
+        margin: 0 auto; 
+        padding: 0 auto;
+        text-align: center; 
+        display: block; 
+        padding-bottom: 10px;
+    }
+}
+
+/* Styles for stats-image class */
+.stats-image{
+    width: 300px;
+    height: 400px;
+}
+
+/* Styles for stats-section class */
+.stats-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+}
+
+/* Styles for guides-page and boss-names classes */
+.guides-page , .boss-names{
+    padding-bottom: 15px;
+}
+
+/* Styles for i element */
+i{
+    color: white;
+    background-color: black;
+}
+
+/* Styles for button element */
+button{
+    background-color: black;
+    border-radius: 6px;
+}
+
+/* Styles for h2 element */
+h2{
+    font-size: 2em;
+}
+
+/* Styles for guides-h2 class */
+.guides-h2{
+    text-align: center;
+}
+
+.guides-p{
+    text-align: center;
+    justify-content: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+}
+
+
+/*Styles for the carousel class*/
+.carousel {
+
+    /*Seths the display to flexbox*/
+    display: flexbox;
+  
+    /*
+      position all children absolute to the carousel class and not the body elementy
+    */
+    position: relative;
+
+    overflow: auto;
+    
+    /* 
+      Width and height of an individual image, assuming all of your images
+      have the same dimensions
+    */
+    width: 500px;
+    height: 250px; 
+    
+    /*
+      Makes sure only one image is shown at once
+    */
+    overflow: hidden;
+    
+    /* 
+      Only required if using flexbox or for centering
+    */
+    margin: auto;
+    
+    /* 
+      Curving and the shadow of the carousel
+    */
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+
+
+    margin-top: 50px;
+
+
+    
+  }
+
+  /*Styles for the carousel description*/
+  .carousel-description {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  /*
+    Styles for the carousel images
+*/
+.carousel-images {
+    /* 
+        To have precise control over image positioning, 
+        we use absolute positioning.
+    */
+    position: absolute;
+    
+    /* 
+        Stacks images on the z-axis of the page.
+    */
+    z-index: 1;
+    
+    /* 
+        Allows for offset adjustments along the left edge.
+    */
+    left: 0;
+    
+    /* 
+        Initial dimensions set; can be updated dynamically.
+    */
+    width: 12600px; 
+    height: 700px;
+    
+    /* 
+        Smooth transition effect for left repositioning.
+    */
+    transition: left .5s ease-in-out;
+}
+
+/* 
+    Image dimensions specified manually.
+*/
+.carousel-images img {
+    width: 500px;
+    height: 250px;
+}
+
+/* 
+    Styles for the navigation elements.
+*/
+.carousel nav {
+    /* 
+        Establishes a flex container.
+    */
+    display: flex;
+    justify-content: space-between;
+    
+    /* 
+        Places navigation over the images.
+    */
+    position: absolute;
+    z-index: 2;
+    
+    /* 
+        Sets dimensions to match carousel.
+    */
+    width: 500px;
+    height: 200px;
+    
+    /* 
+        Vertically centers buttons.
+    */
+    line-height: 200px;
+}
+
+/* 
+    Style for navigation buttons.
+*/
+.carousel nav a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 30pt;
+    padding: 0px 25px;
+    
+    /* 
+        Transitions properties on hover.
+    */
+    transition: all .25s ease;
+    
+    /* 
+        Initial styles for button transparency and background.
+    */
+    opacity: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+/* 
+    Hover state for navigation buttons.
+*/
+.carousel nav:hover a {
+    /* 
+        Transition properties back on hover.
+    */
+    transition: all .25s ease;
+    
+    /* 
+        Adjusts opacity and background color on hover.
+    */
+    opacity: 1;
+    background-color: rgba(0,0,0,0.15);
+}
+
+/* 
+    Positions caption over image.
+*/
+.carousel-caption {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+}
+
+/* Default styles */
+#gallery-container {
+    padding: 20px; /* Add padding to the container */
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#gallery div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallery img {
+    width: 350px;
+    height: 350px;
+}
+
+@media screen and (max-width: 2400px){
+    #gallery{
+        grid-template-columns: repeat(3, 1fr);
+
+        gap:0px;
+    }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    #gallery {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+        gap: 5px; /* Reduced gap between images */
+    }
+    
+    #gallery img {
+        width: 100%; /* Make images fill the column width */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Media query for even smaller screens, e.g., mobile phones */
+@media screen and (max-width: 480px) {
+    #gallery {
+        grid-template-columns: 1fr; /* One column for very small screens */
+    }
+}
+
+.map-p{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}

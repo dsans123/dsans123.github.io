@@ -1,0 +1,38 @@
+[
+    {
+        "url":"img/map/Limgrave.jpg",
+        "caption":"Limgrave"
+    },
+    {
+        "url":"img/map/WeepingPeninsula.jpg",
+        "caption":"Weeping Peninsula" 
+    },
+    {
+        "url":"img/map/Caelid.jpg",
+        "caption": "Caelid" 
+    },
+    {
+        "url":"img/map/Liurnia.jpg",
+        "caption": "Liurnia of the Lakes"
+    },
+    {
+        "url":"img/map/AltusPlateu.jpg",
+        "caption": "Altus Plateu and Leyndell Royal Capital"
+    },
+    {
+        "url":"img/map/MtGelmir.jpg",
+        "caption": "Mt. Gelmir" 
+    },
+    {
+        "url": "img/map/Mountain.jpg",
+        "caption": "Mountaintops of the Giants"
+    },
+    {
+        "url":"img/map/Siofra.jpg",
+        "caption": "Siofra River"
+    },
+    {
+        "url":"img/map/Lake.jpg",
+        "caption": "Lake of Rot"
+    }
+]

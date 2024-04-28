@@ -1,0 +1,49 @@
+[
+    {
+        "url": "img/weapons/black-knife.jpg",
+        "caption": "Black Knife",
+        "text":"The Black Knife is a dagger in Elden Ring which can be attained by killing the Black Knife Assasin at the entrance of the Sainted Hero's grave in the Altus Plateu. The knife scales primarily with faith and dexterity. Its a good weapon to deal holy damage and has a unique skill called Blade of Death that fires a projectile from the weapon. "
+    },
+
+    {
+        "url":  "img/weapons/blasphemous-blade.jpg" ,
+        "caption": "Blasphemous Blade",
+        "text": "The Blasphemous Blade is a greatsword in Elden Ring aquired by defeating the boss Rykard, Lord of Blasphemy. The blade scales with strength, dexterity and faith. The weapon is unique in the way that it deals fire damage and the hits done with the ashe of war will replenish a percentage of the players health bar."
+    },
+    {
+        "url": "img/weapons/CipherPata.jpg" ,
+        "caption": "Cipher Pata",
+        "text": "The Cipher Pata is a very early game fist type weapon in Elden Ring. The weapons scales purely wioth holy damage and is found in the side room to the left in the same area Mad Tongue Alberich invades at the Roundtable hold. The ashe of war unblockable blade propels the player approximately 2 meters forwards and does damage to any enemies it hits."
+    },
+    {
+        "url":  "img/weapons/gargoyle.jpg" ,
+        "caption": "Gargoyles Blackblade",
+        "text": "The Gargoyles Blackblade is a greatsword that scales primarily with strength and dexterity. The weapon can be attained by killing the Black Blade Kindred, who stands in front of the Bestial Sanctum. The ashe of war Corpse Wax Cutter allows the blade to be launched forward giving the weapon much needed range."
+    },
+    {
+        "url": "img/weapons/golden-halberd.jpg",
+        "caption": "Golden Halberd",
+        "text": "The Golden Halberd is a Halberd in Elden Ring thats scales with strength, dexterity and faith in Elden Ring. It is a good weapon for dealing physical damage and can be attained by killing the Tree Sentinel in Limgrave. The ashe of war Golden Vow increases the players attack and defense stats making the weapon good for getting in close and dealing a lot of damage."
+    },
+    {
+        "url": "img/weapons/marikas-hammer.jpg",    
+        "caption": "Marikas Hammer",
+        "text": "Marika's Hammer is a Hammer in Elden Ring that scales primarily with strength and is a good weapon for heavy attacks and dealing poise damage. The weapon is attained by beating the final boss and trading the remembrance in for the weapon. The ashe of war allows the player to create earth quake like ground slams in front of the player."
+    },        
+    {
+        "url": "img/weapons/SoNaF.jpg",
+        "caption": "Sword of Night and Flame",
+        "text": "The Sword of Night and Flame is a straight sword in Elden Ring that scales with dexterity, interlligence and strength, it is attained in Caria Manor in a locked room. The weapon is strong due to its unique skill Night and Flame Stance which allows the user to hold the sword forward to either cast the comet azur sorcery or a burst of flame which causes fire damage."
+    },
+    {
+        "url": "img/weapons/GoldenOrderGreatsword.jpg",
+        "caption": "Golden Order Greatsword",
+        "text": "The Golden Order Greatsword is a greatsword in Elden RIng that scales with strength, dexterity and faith. The weapon can be attained by killing the Misbegotten Crusader in the Cave of the Forlorn. The ashe of war Establish Order allows the player to release a golden explosion and launch an arc of sweeping strikes."
+    },
+    {
+        "url": "img/weapons/uchiggatana.jpg",
+        "caption" : "Uchigatana",
+        "text": "The Uchigatana is a Katana type weapon in Elden Ring that can scales with dexterity and strength and is a good weapon for piercing and slashing as well as dealing bleed to enemies. The weapon can be attained either by starting as the samurai class or it can be found on a dead body in the Deathtouched Catacombs. The ashe of war Unsheate unleashes a devestating slash that deals huge amount of poise and normal damage."
+    }
+
+]
