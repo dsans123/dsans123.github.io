@@ -24,13 +24,13 @@ document.addEventListener("DOMContentLoaded", function() {
       // Change the icon to a sun
       icon.className = 'fas fa-sun';
       // Change the icon color to white and the background color to white
-      icon.style.color = 'white';
-      icon.style.backgroundColor = 'black';
-      if(loreButton){
-        loreButton.style.backgroundColor = 'black';
+      icon.style.color = 'blacki';
+      icon.style.backgroundColor = 'white';
+      if(button){
+        button.style.backgroundColor = 'white';
       }
       else{
-        button.style.backgroundColor = 'black';
+        loreButton.style.backgroundColor = 'white';
 
       }
       // Add the darkmode-nav class to the nav if it exists
