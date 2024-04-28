@@ -73,7 +73,7 @@ main iframe {
 /* Styles for hover state of a element within overview class */
 .overview a:hover{
     color: #ab8a60;
-    transition: ease-in-out 0.5;
+    transition: ease-in-out 0.5s;
 }
 
 /* Styles for page-nav class */
