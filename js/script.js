@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
       // Change the icon to a sun
       icon.className = 'fas fa-sun';
       // Change the icon color to white and the background color to white
-      icon.style.color = 'blacki';
+      icon.style.color = 'black';
       icon.style.backgroundColor = 'white';
       if(button){
         button.style.backgroundColor = 'white';
