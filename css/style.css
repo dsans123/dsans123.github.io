@@ -256,7 +256,7 @@ main iframe {
         float: none;
         width: auto;
         margin: 0 auto; 
-        padding: 0 auto;
+        
         text-align: center; 
         display: block; 
         padding-bottom: 10px;
@@ -317,7 +317,7 @@ h2{
 .carousel {
 
     /*Seths the display to flexbox*/
-    display: flexbox;
+    display: flex;
   
     /*
       position all children absolute to the carousel class and not the body elementy
