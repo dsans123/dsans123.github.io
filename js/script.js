@@ -6,7 +6,12 @@ document.addEventListener("DOMContentLoaded", function() {
     var body = document.body;
     var img = document.getElementById('image');
     // Get the icon from the button or the loreButton
-    var icon = button ? button.querySelector('i') : loreButton.querySelector('i');
+    var icon;
+    if (button) {
+        icon = button.querySelector('i');
+    } else {
+        icon = loreButton.querySelector('i');
+    }
     var nav = document.getElementById('pageNav');
   
     // Add transition to the body and the icon
@@ -54,15 +59,11 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Toggle color mode when button is clicked
     function toggleColorMode() {
-      // Check if the body has the darkmode class
+      // Check if the body has the darkmode class and changes the styles accordingly
       if (body.classList.contains('darkmode')) {
-        // Remove the darkmode class from the body
         body.classList.remove('darkmode');
-        // Add the lightmode class to the body
         body.classList.add('lightmode');
-        // Change the icon to a moon
         icon.className = 'fa fa-moon';
-        // Reset the icon color and background color
         icon.style.color = 'white';
         icon.style.backgroundColor = 'black';
         if(loreButton){
@@ -71,21 +72,15 @@ document.addEventListener("DOMContentLoaded", function() {
         else{
             button.style.backgroundColor = 'black';
         }
-        // Check if the nav element exists
+        // Check if the nav element exists and changes it to lightmode
         if (nav) {
-          // Remove the darkmode-nav class from the nav
           nav.classList.remove('darkmode-nav');
-          // Add the lightmode-nav class to the nav
           nav.classList.add('lightmode-nav');
         }
       } else {
-        // Remove the lightmode class from the body
         body.classList.remove('lightmode');
-        // Add the darkmode class to the body
         body.classList.add('darkmode');
-        // Change the icon to a sun
         icon.className = 'fas fa-sun';
-        // Change the icon color to white and the background color to white
         icon.style.color = 'black';
         icon.style.backgroundColor = 'white';
         if(loreButton){
@@ -96,16 +91,18 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         // Check if the nav element exists
         if (nav) {
-          // Remove the lightmode-nav class from the nav
           nav.classList.remove('lightmode-nav');
-          // Add the darkmode-nav class to the nav
           nav.classList.add('darkmode-nav');
         }
       }
       // Check if the loreButton is clicked and if so, do not change the image
       if (this.id !== 'loreColourMode' && img) {
         // Change the image source based on the color mode
-        img.src = body.classList.contains('darkmode') ? "img/logo.jpg" : "img/lightlogo.jpg";
+        if (body.classList.contains('darkmode')) {
+          img.src = "img/logo.jpg";
+        } else {
+            img.src = "img/lightlogo.jpg";
+        }
       }
     }
   
@@ -267,12 +264,14 @@ document.addEventListener("DOMContentLoaded", function() {
     for (let i = 0; i < data.length; i++) {
       var item = data[i];
       
+      //elements required for the gallery
       var div = document.createElement('div');
       
       var a = document.createElement('a');
       a.href = item.url;
       
       const img = document.createElement('img');
+      //parses the json to the required attributes of the elements
       img.src = item.url;
       img.alt = item.caption;
       
