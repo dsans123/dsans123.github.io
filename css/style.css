@@ -132,16 +132,16 @@ main iframe {
 
 /* Styles for nav-link class within lightmode-nav class */
 .lightmode-nav .nav-link {
-    background-color: gainsboro; /* Light mode background color for navigation */
-    color: #ab8a60; /* Light mode text color for navigation */
-    border-bottom: 6px solid gainsboro; /* Light mode border color for navigation */
+    background-color: gainsboro; 
+    color: #ab8a60;
+    border-bottom: 6px solid gainsboro; 
 }
 
 /* Styles for nav-link class within darkmode-nav class */
 .darkmode-nav .nav-link {
-    background-color: #1B1B1B; /* Dark mode background color for navigation */
-    color: #ab8a60; /* Dark mode text color for navigation */
-    border-bottom: 6px solid #1b1b1b; /* Dark mode border color for navigation */
+    background-color: #1B1B1B; 
+    color: #ab8a60; 
+    border-bottom: 6px solid #1b1b1b; 
 }
 
 /* Styles for colour-mode class */
@@ -176,7 +176,7 @@ main iframe {
 /* Styles for boss-names class when min-width is 1000px */
 @media screen and (min-width: 1000px) {
     .boss-names {
-        padding-bottom: 30px; /* Increase padding when the page width is larger than 1200px */
+        padding-bottom: 30px; 
     }
 }
 
@@ -195,7 +195,7 @@ main iframe {
 /* Styles for image-container class */
 .image-container {
     float: left;
-    padding-left: 15px; /* Add padding to the left of the image */
+    padding-left: 15px; 
 }
 
 /* Styles for img class */
@@ -212,7 +212,7 @@ main iframe {
 /* Styles for text-container class */
 .text-container {
     float: left;
-    width: calc(100% - 320px); /* Adjusted width considering the padding and image width */
+    width: calc(100% - 320px);
 }
 
 /* Styles for boss-names and boss-info classes */
@@ -485,7 +485,7 @@ h2{
 
 /* Default styles */
 #gallery-container {
-    padding: 20px; /* Add padding to the container */
+    padding: 20px; 
 }
 
 #gallery {
@@ -516,24 +516,24 @@ h2{
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     #gallery {
-        grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
-        gap: 5px; /* Reduced gap between images */
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5px; 
     }
     
     #gallery img {
-        width: 100%; /* Make images fill the column width */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        height: auto; 
     }
 }
 
 /* Media query for even smaller screens, e.g., mobile phones */
 @media screen and (max-width: 480px) {
     #gallery {
-        grid-template-columns: 1fr; /* One column for very small screens */
+        grid-template-columns: 1fr; 
     }
 }
 
-.map-p{
+.map-p {
     text-align: center;
     font-size: 1.2em;
     padding-bottom: 10px;
